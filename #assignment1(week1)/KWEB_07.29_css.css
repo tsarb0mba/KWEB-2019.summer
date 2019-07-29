@@ -34,6 +34,10 @@ html,body{
 .page{
     width: calc(100% - 60px);
     padding: 30px;
+    
+}
+
+.page:nth-child(2n-1){
     background-color: lightgray;
 }
 
