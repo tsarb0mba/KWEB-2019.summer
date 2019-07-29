@@ -65,3 +65,29 @@ html,body{
 .Curriculum-table td,th{
     border:1px solid black;
 }
+/*****Curriculum finish*********/
+
+/*****Networking start**********/
+#Networking-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Networking-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+
+    margin:50px;
+
+    text-align: center;
+}
+
+.Networking-img{
+    height: 300px;
+    width: 300px;
+}
+/*******Networking finish*****?
+
