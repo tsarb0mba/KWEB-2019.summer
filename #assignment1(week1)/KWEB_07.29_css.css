@@ -1,0 +1,67 @@
+html,body{
+    width: 100%;
+    margin:0px;
+}
+
+#Landingpage{
+    
+    height: 100vh;
+    
+
+    background-image: url("./title.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Landingpage-logo{
+    margin:25px;
+    height: 150px;
+    width: 150px;
+}
+
+.Landingpage-text{
+    color:white;
+    text-align: center;
+}
+/**********Landingpage finish************/
+
+
+.page{
+    width: calc(100% - 60px);
+	padding: 30px;
+}
+
+/******Curriculum start***********/
+#Curriculum-title{
+    display: flex;
+    align-items: flex-start
+}
+
+#Curriculum-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#Curriculum-img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Curriculum-table{
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+
+}
+
+.Curriculum-table td,th{
+    border:1px solid black;
+}
