@@ -3,6 +3,34 @@ html,body{
     margin:0px;
 }
 
+/***menu-bar start******/
+#menu-bar{
+    position: sticky;
+    top:0px;
+    background-color:white;
+
+    height: 50px;
+
+    padding-right: 20px;
+	padding-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-bar-category{
+    margin:10px;
+}
+
+
+#menu-bar-title{
+    font-weight: bold;
+
+}
+
+
+/****landingpage start**********/
 #Landingpage{
     
     height: 100vh;
@@ -73,11 +101,7 @@ html,body{
 /*****Curriculum finish*********/
 
 /*****Networking start**********/
-#Networking-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #Networking-container{
     display: flex;
