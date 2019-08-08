@@ -5,18 +5,20 @@ html,body{
 
 /***menu-bar start******/
 #menu-bar{
-    position: sticky;
-    top:0px;
-    background-color:white;
-
+    position: fixed;
+    
     height: 50px;
+    width: calc(100% - 60px);
 
-    padding-right: 20px;
-	padding-left: 20px;
+    top:0px;
+    padding-left: 30px;
+    padding-right:30px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    z-index: 1;
 }
 
 .menu-bar-category{
@@ -25,10 +27,14 @@ html,body{
 
 
 #menu-bar-title{
+    color:rgb(100, 100, 100);
     font-weight: bold;
-
+    font-size:large;
 }
 
+#menu-bar-background{
+    background-color:white;
+}
 
 /****landingpage start**********/
 #Landingpage{
@@ -66,13 +72,13 @@ html,body{
 }
 
 .page:nth-child(2n-1){
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
 /******Curriculum start***********/
 #Curriculum-title{
     display: flex;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 #Curriculum-contents{
@@ -80,7 +86,6 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 #Curriculum-img{
