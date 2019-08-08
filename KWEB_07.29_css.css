@@ -147,7 +147,18 @@ html,body{
     display: flex;
     flex-direction: row;
     font-size: small;
-    
+}
+
+#Guest-memo-list{
+    width: calc(100%-40px);
+    padding:20px;
+}
+.Guest-memo-list-element{
+    padding:5px;
+    border-bottom-style: groove;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+    color:rgb(26, 87, 199);
 }
 
 
