@@ -143,5 +143,12 @@ html,body{
     margin-top:5px;
 }
 
+#Guest-memo-length{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    
+}
+
 
 
